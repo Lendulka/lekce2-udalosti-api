@@ -76,6 +76,14 @@ li {
 	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
+	margin-bottom: 20px;
+}
+
+.tlacitko-1 {
+	background: rgb(175, 174, 174);
+	background-image: linear-gradient(bottom, #bdbcbc 0%, #868384 100%);
+	box-shadow: 0px 5px 0px 0px #524f50, 0px 10px 5px #999;
+	text-shadow: 1px 1px 0px #6d696a;
 }
 
 .tlacitko:active {
@@ -115,9 +123,21 @@ li {
 	border-color: green;
 }
 
-
 .aktivni {
 	background-color: cyan;
 	color: black;
 	border-color: blue;
+}
+
+.odstavecPismoTucnost {
+	font-weight: 800;
+}
+
+.odstavecPismoBarva {
+	color: red;
+}
+
+.kontejner {
+	display: flex;
+	flex-direction: column;
 }
